@@ -1,25 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Profile</title>
+    <title>Student Information Form</title>
 </head>
-<body style="text-align: center;background-color: rgb(177, 215, 215);">
-    <h1>Profile</h1>
-    <p>This is the profile page.</p>
-    <table border="1" style="width: 50%; margin: 0 auto; text-align: center;">
-        <tr>
-            <th>Name</th>
-            <th>Roll Number</th>
-            <th>Department</th>
-        </tr>
-        <tr>
-            <td>VIRAT PREM KOHLI</td>
-            <td>12345</td>
-            <td>Computer Science</td>
-        </tr>
-    </table>
+<body>
+
+    <div style="text-align: left;">
+     <img src="./nehang.jpeg" height="150" width="150" alt="Nehang Photo">
+    </div>
+
+    <h2>Student Information Form</h2>
+
+    <form>
+
+        <p>Name:</p>
+        <input type="text" name="name">
+
+        <br><br>
+
+<p>Enrollment No:</p>
+        <input type="text" name="enrollment">
+
+        <br><br>
+
+<p>Email:</p>
+        <input type="text" name="email">
+
+        <br><br>
+
+        <p>Mobile Number:</p>
+        <input type="text" name="mobile">
+
+        <br><br>
+
+<p>Gender:</p>
+        <select name="gender">
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <br><br>
+
+<p>Date of Birth:</p>
+        <input type="date" name="dob">
+
+        <br><br>
+
+        <p>Branch:</p>
+    <select name="branch">
+            <option value="">Select Branch</option>
+            <option value="CE">Computer Engineering</option>
+            <option value="IT">Information Technology</option>
+            <option value="ME">Mechanical Engineering</option>
+            <option value="EE">Electrical Engineering</option>
+            <option value="Civil">Civil Engineering</option>
+        </select>
+
+        <br><br>
+
+        <p>Semester:</p>
+        <select name="semester">
+      <option>Semester 1</option>
+            <option>Semester 2</option>
+            <option>Semester 3</option>
+            <option>Semester 4</option>
+            <option>Semester 5</option>
+     <option>Semester 6</option>
+            <option>Semester 7</option>
+            <option>Semester 8</option>
+        </select>
+
+        <br><br>
+
+        <p>Academic Year:</p>
+        <select name="year">
+    <option>2026-2027</option>
+            <option>2027-2028</option>
+            <option>2028-2029</option>
+            <option>2029-2030</option>
+        </select>
+
+        <br><br>
+
+        <p>Address:</p>
+        <textarea name="address" rows="4" cols="50"></textarea>
+
+        <br><br>
+
+        <p>Hobbies:</p>
+     <input type="checkbox" name="hobby" value="Reading"> Reading
+        <input type="checkbox" name="hobby" value="Coding"> Coding
+        <input type="checkbox" name="hobby" value="Sports"> Sports
+        <input type="checkbox" name="hobby" value="Music"> Music
+
+        <br><br>
+
+        
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
     <a href="home.html">
         <button style="padding: 10px 20px; font-size: 16px;">Back to Home</button>
-    </a>
+        
+        
+
 </body>
 </html>
